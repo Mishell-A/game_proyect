@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Bona Nova SC", serif;
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/intensamente_f5639e2b.jpeg?download=trueA);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  height: 60px;
+}
+
+.container {
+  margin: 3% auto;
+  width: 70%;
+}
+
+#contenido-pregunta {
+  padding: 20px;
+  height: 160px;
+}
+
+.card {
+  text-align: center;
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto 2em;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Fondo blanco semitransparente */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.options {
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.btn {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 7px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #33b36c;
+  transform: scale(1);
+}
+
+#pregunta {
+  font-size: 1.4em;
+}
+
+#barra-progreso {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.emojis {
+  font-size: 3em;
+  text-align: center;
+  vertical-align: center;
+}
+
+img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.text {
+  line-height: 2em;
+}
+
+.resultado-obtenido {
+  margin-top: 2em;
+  font-size: 25px;
+}
+.resultado-imagen {
+  height: 200px;
+}
+
+.up {
+  height: 85%;
+}
+
+audio {
+  width: 50%;
+  height: 1.5em;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="./assets/css/style-dream.css"> <!-- archivo CSS -->
+</head>
+<body>
+
+<!-- Contenedor principal -->
+<div class="container">
+    <!-- Sección para las preguntas y opciones -->
+    <div class="card">
+        <div class="question">
+            <header class="encabezado">
+                <h1 id="pregunta"></h1>
+            </header>
+        </div>
+        <div id="contenido-pregunta"></div>
+        <div class="options">
+            <div class="btn" id="op1">Opción 1</div>
+            <div class="btn" id="op2">Opción 2</div>
+            <div class="btn" id="op3">Opción 3</div>
+            <div class="btn" id="op4">Opción 4</div>
+        </div>
+    </div>
+    <!-- Barra de progreso -->
+    <progress id="barra-progreso" value="0" max="100"></progress>
+    <!-- Sección para los resultados -->
+    <div id="resultados"></div>
+</div>
+
+<script src="./assets/js/script-dreamworks.js"></script> <!-- Archivo JavaScript -->
+</body>
+</html>

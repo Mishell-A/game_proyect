@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-image: url(https://papers.co/wallpaper/papers.co-ab17-wallpaper-rapunzel-dreams-disney-illust-29-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: "Bona Nova SC", serif;
+}
+.btn {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.btn:hover {
+  background: #4665c3;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 3em;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.caja {
+  border: 1px solid #000;
+  width: 50%;
+  margin: 100px auto;
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+}
+.titulo {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
